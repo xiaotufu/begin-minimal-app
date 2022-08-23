@@ -9,6 +9,8 @@
     "@architect/sandbox": "^3.3"
   },
   "dependencies": {
-    "mongodb": "^3.6.6"
+    "@architect/functions": "^5.2.1",
+    "mongodb": "^3.6.6",
+    "node-fetch": "^2.6.7"
   }
 }

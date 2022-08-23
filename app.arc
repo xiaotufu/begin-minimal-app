@@ -2,5 +2,5 @@
 myapp
 
 @http
-get /api
+post /tinyurl
 get /search

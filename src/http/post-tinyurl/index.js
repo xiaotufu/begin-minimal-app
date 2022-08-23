@@ -10,7 +10,7 @@ exports.handler = async function http (request) {
   const options = {
     method: 'POST',
     headers: {
-      'X-RapidAPI-Key': api_key
+      'X-RapidAPI-Key': `${api_key}`
     },
     body: encodedParams
   };

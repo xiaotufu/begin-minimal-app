@@ -1,7 +1,7 @@
 let fetch = require('node-fetch');
 let arc = require('@architect/functions')
 let parseBody = arc.http.helpers.bodyParser
-var api_key = process.env.API_KEY;
+var api_key = process.env.API_KEY==null?'4f64c0deacmshba4e8029f1cbd2bp11925fjsn0a5b88802369':process.env.API_KEY;
 exports.handler = async function http (request) {
   let body = parseBody(request)
   let long_url = body.long_url
